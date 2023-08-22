@@ -48,10 +48,10 @@ RM = "/Applications/CLion 4.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hebiao1/CLionProjects/Study_c++
+CMAKE_SOURCE_DIR = /Users/hebiao1/CLionProjects/projectC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hebiao1/CLionProjects/projectC/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles /Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles /Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,33 @@ Cbase/mmsetDev/memsetTest.s: Cbase/mmsetDev/memsetTest.c.s
 Cbase/mmsetDev/memsetTest.c.s:
 	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.s
 .PHONY : Cbase/mmsetDev/memsetTest.c.s
+
+Cbase/test/test.o: Cbase/test/test.c.o
+
+.PHONY : Cbase/test/test.o
+
+# target to build an object file
+Cbase/test/test.c.o:
+	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/test/test.c.o
+.PHONY : Cbase/test/test.c.o
+
+Cbase/test/test.i: Cbase/test/test.c.i
+
+.PHONY : Cbase/test/test.i
+
+# target to preprocess a source file
+Cbase/test/test.c.i:
+	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/test/test.c.i
+.PHONY : Cbase/test/test.c.i
+
+Cbase/test/test.s: Cbase/test/test.c.s
+
+.PHONY : Cbase/test/test.s
+
+# target to generate assembly for a file
+Cbase/test/test.c.s:
+	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/test/test.c.s
+.PHONY : Cbase/test/test.c.s
 
 defineTest/defineTest.o: defineTest/defineTest.cpp.o
 
@@ -381,6 +408,9 @@ help:
 	@echo "... Cbase/mmsetDev/memsetTest.o"
 	@echo "... Cbase/mmsetDev/memsetTest.i"
 	@echo "... Cbase/mmsetDev/memsetTest.s"
+	@echo "... Cbase/test/test.o"
+	@echo "... Cbase/test/test.i"
+	@echo "... Cbase/test/test.s"
 	@echo "... defineTest/defineTest.o"
 	@echo "... defineTest/defineTest.i"
 	@echo "... defineTest/defineTest.s"

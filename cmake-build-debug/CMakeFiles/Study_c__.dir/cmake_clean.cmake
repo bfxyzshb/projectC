@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o"
   "CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o"
+  "CMakeFiles/Study_c__.dir/Cbase/test/test.c.o"
   "CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.o"
   "CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o"
   "CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.o"

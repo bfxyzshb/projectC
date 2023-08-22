@@ -5,8 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hebiao1/CLionProjects/Study_c++/Cbase/funcPointDev/funcPoint.c" "/Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o"
-  "/Users/hebiao1/CLionProjects/Study_c++/Cbase/mmsetDev/memsetTest.c" "/Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o"
+  "/Users/hebiao1/CLionProjects/projectC/Cbase/funcPointDev/funcPoint.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o"
+  "/Users/hebiao1/CLionProjects/projectC/Cbase/mmsetDev/memsetTest.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o"
+  "/Users/hebiao1/CLionProjects/projectC/Cbase/test/test.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/test/test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -14,13 +15,13 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hebiao1/CLionProjects/Study_c++/defineTest/defineTest.cpp" "/Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.o"
-  "/Users/hebiao1/CLionProjects/Study_c++/dev_entern/dev.cpp" "/Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o"
-  "/Users/hebiao1/CLionProjects/Study_c++/forkTest/forkTest.cpp" "/Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.o"
-  "/Users/hebiao1/CLionProjects/Study_c++/funcPointer/funcPointer.cpp" "/Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o"
-  "/Users/hebiao1/CLionProjects/Study_c++/funcPointer/testFuncPointer.cpp" "/Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o"
-  "/Users/hebiao1/CLionProjects/Study_c++/main.cpp" "/Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles/Study_c__.dir/main.cpp.o"
-  "/Users/hebiao1/CLionProjects/Study_c++/test.cpp" "/Users/hebiao1/CLionProjects/Study_c++/cmake-build-debug/CMakeFiles/Study_c__.dir/test.cpp.o"
+  "/Users/hebiao1/CLionProjects/projectC/defineTest/defineTest.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.o"
+  "/Users/hebiao1/CLionProjects/projectC/dev_entern/dev.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o"
+  "/Users/hebiao1/CLionProjects/projectC/forkTest/forkTest.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.o"
+  "/Users/hebiao1/CLionProjects/projectC/funcPointer/funcPointer.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o"
+  "/Users/hebiao1/CLionProjects/projectC/funcPointer/testFuncPointer.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o"
+  "/Users/hebiao1/CLionProjects/projectC/main.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/main.cpp.o"
+  "/Users/hebiao1/CLionProjects/projectC/test.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

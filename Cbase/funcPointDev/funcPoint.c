@@ -21,5 +21,5 @@ void testFuncPoint(){
     f(1,2);
     Func1 = add1;
     int res = Func1(100,200);
-    printf("testFuncPoint======>x+y=%d",res);
+    printf("testFuncPoint======>x+y=%d\n",res);
 }

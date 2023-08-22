@@ -5,6 +5,7 @@
 extern "C"{
 #include "Cbase/mmsetDev/memsetTest.h"
 #include "Cbase//funcPointDev/funcPoint.h"
+#include "Cbase//test/test.h"
 }
 
 struct Student {
@@ -86,5 +87,6 @@ int main() {
     testFork();
     testCbase();
     testFuncPoint();
+    test();
     return 0;
 }

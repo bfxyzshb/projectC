@@ -1,0 +1,7 @@
+*~
+*.swp
+*.swo
+go
+*.o
+*.xml
+.idea/
