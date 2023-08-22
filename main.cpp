@@ -1,5 +1,4 @@
 #include <iostream>
-#include <zconf.h>
 #include "test.h"
 #include "dev_entern/dev.h"
 extern "C"{
