@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hebiao1/CLionProjects/Study_c++/Cbase/funcPointDev/funcPoint.c
+funcPoint.h
+/Users/hebiao1/CLionProjects/Study_c++/Cbase/funcPointDev/funcPoint.h
+stdio.h
+-
+string.h
+-
+
+/Users/hebiao1/CLionProjects/Study_c++/Cbase/funcPointDev/funcPoint.h
+
