@@ -1,0 +1,25 @@
+.PHONY:all clean
+MKDIR=mkdir
+RM=rm
+RMFLAGS=-fr
+CC=gcc
+
+DIR_OBJS=objs
+DIR_EXE=exes
+DIRS=$(DIR_OBJS) $(DIR_EXE)
+EXE=test
+EXE:=$(addprefix $(DIR_EXE)/, $(EXE))
+SRCS=$(wildcard *.c)
+OBJS=$(SRCS:.c=.o)
+OBJS:=$(addprefix $(DIR_OBJS)/, $(OBJS))
+
+all:$(DIRS) $(EXE)
+
+$(DIRS):
+	$(MKDIR) $@
+$(EXE):$(OBJS)
+	$(CC) -o $@ $^
+$(DIR_OBJS)/%.o:%.c
+	$(CC) -o $@ -c $^
+clean:
+	$(RM) $(RMFLAGS) $(DIRS)

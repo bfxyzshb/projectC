@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o"
   "CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o"
   "CMakeFiles/Study_c__.dir/main.cpp.o"
+  "CMakeFiles/Study_c__.dir/make/foo.c.o"
+  "CMakeFiles/Study_c__.dir/make/main.c.o"
   "CMakeFiles/Study_c__.dir/test.cpp.o"
   "Study_c__"
   "Study_c__.pdb"

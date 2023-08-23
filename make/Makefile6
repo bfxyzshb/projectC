@@ -1,0 +1,8 @@
+# 递归变量
+.PHONY: all
+ugh = Huh11111?@
+bar = $(ugh)
+foo = $(bar)
+
+all:
+	@echo $(foo)

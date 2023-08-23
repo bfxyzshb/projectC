@@ -366,6 +366,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+make/foo.o: make/foo.c.o
+
+.PHONY : make/foo.o
+
+# target to build an object file
+make/foo.c.o:
+	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/foo.c.o
+.PHONY : make/foo.c.o
+
+make/foo.i: make/foo.c.i
+
+.PHONY : make/foo.i
+
+# target to preprocess a source file
+make/foo.c.i:
+	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/foo.c.i
+.PHONY : make/foo.c.i
+
+make/foo.s: make/foo.c.s
+
+.PHONY : make/foo.s
+
+# target to generate assembly for a file
+make/foo.c.s:
+	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/foo.c.s
+.PHONY : make/foo.c.s
+
+make/main.o: make/main.c.o
+
+.PHONY : make/main.o
+
+# target to build an object file
+make/main.c.o:
+	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/main.c.o
+.PHONY : make/main.c.o
+
+make/main.i: make/main.c.i
+
+.PHONY : make/main.i
+
+# target to preprocess a source file
+make/main.c.i:
+	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/main.c.i
+.PHONY : make/main.c.i
+
+make/main.s: make/main.c.s
+
+.PHONY : make/main.s
+
+# target to generate assembly for a file
+make/main.c.s:
+	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/main.c.s
+.PHONY : make/main.c.s
+
 test.o: test.cpp.o
 
 .PHONY : test.o
@@ -429,6 +483,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... make/foo.o"
+	@echo "... make/foo.i"
+	@echo "... make/foo.s"
+	@echo "... make/main.o"
+	@echo "... make/main.i"
+	@echo "... make/main.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

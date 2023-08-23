@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hebiao1/CLionProjects/projectC/Cbase/funcPointDev/funcPoint.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o"
   "/Users/hebiao1/CLionProjects/projectC/Cbase/mmsetDev/memsetTest.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o"
   "/Users/hebiao1/CLionProjects/projectC/Cbase/test/test.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/test/test.c.o"
+  "/Users/hebiao1/CLionProjects/projectC/make/foo.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/make/foo.c.o"
+  "/Users/hebiao1/CLionProjects/projectC/make/main.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/make/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

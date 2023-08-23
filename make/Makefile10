@@ -1,0 +1,14 @@
+.PHONY: clean
+CC = gcc
+RM = rm
+EXE = simple
+#wildcard函数表示*通配符生效
+SRCS = $(wildcard *.c)
+# patsubst函数将SRCS中.c后缀全部替换成.o后缀
+OBJS = $(patsubst %.c,%.o,$(SRCS))
+$(EXE): $(OBJS)
+	$(CC) -o $@ $^
+%.o: %.c
+	$(CC) -o $@ -c $^
+clean:
+	$(RM) $(EXE) $(OBJS)

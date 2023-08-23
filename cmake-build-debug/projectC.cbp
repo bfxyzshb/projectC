@@ -122,6 +122,12 @@
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/main.cpp">
 			<Option target="Study_c__"/>
 		</Unit>
+		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/foo.c">
+			<Option target="Study_c__"/>
+		</Unit>
+		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/main.c">
+			<Option target="Study_c__"/>
+		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/test.cpp">
 			<Option target="Study_c__"/>
 		</Unit>

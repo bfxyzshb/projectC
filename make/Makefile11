@@ -1,0 +1,18 @@
+.PHONY:all
+MKDIR=mkdir
+DIRS=objs exes
+RM=rm
+RMFLAGS=-fr
+all:$(DIRS) abc
+$(DIRS):
+	$(MKDIR) $@
+SRCS=$(wildcard *.c)
+#.c替换成.o
+OBJS=$(SRCS:.c=.o)
+abc:
+	@echo "$(OBJS)"
+clean:
+	$(RM) $(RMFLAGS) $(DIRS)
+
+
+

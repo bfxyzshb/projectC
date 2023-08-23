@@ -1,0 +1,10 @@
+.PHONY:all
+sample:first second third
+	@echo "\$$@ = $@"
+	@echo "\$$^ = $^"
+	@echo "\$$< = $<"
+
+first second third: abc
+	@echo "hello"
+	@echo "\$$^ = $^"
+abc:
