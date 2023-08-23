@@ -1,8 +1,71 @@
-all: test dev abc
-	@echo "Hello world"
-test:
-	@echo "test game"
-dev:
-	@echo "test dev"
-abc:
-	@echo "abc"
+BUILD_DIR=objs
+ 
+SRCS := Cbase/funcPointDev/funcPoint.c Cbase/mmsetDev/memsetTest.c Cbase/test/test.c defineTest/defineTest.cpp dev_entern/dev.cpp forkTest/forkTest.cpp funcPointer/funcPointer.cpp funcPointer/testFuncPointer.cpp
+C_SRCS = $(filter %.c,$(SRCS))
+CXX_SRCS = $(filter %.cpp,$(SRCS))
+ 
+C_OBJS := $(patsubst %.c,$(BUILD_DIR)/%.o,$(C_SRCS))
+CXX_OBJS := $(patsubst %.cpp,$(BUILD_DIR)/%.o,$(CXX_SRCS))
+ 
+CC = gcc
+CXX = g++
+AR = ar crs
+ 
+ASAN_FLAGS :=-g -fno-omit-frame-pointer -fsanitize=address
+ 
+INCLUDE = -I./deps
+CFLAGS += -fPIC $(ASAN_FLAGS) $(INCLUDE)
+CXXFLAGS += -fPIC $(ASAN_FLAGS) $(INCLUDE)
+SHARE = -fPIC -shared
+#SO_LDFLAGS += -lglfw
+ 
+FIBERCV_LIB:=$(BUILD_DIR)/libfibercv.a
+FIBERCV_SO:=$(BUILD_DIR)/libfibercv.so
+DEMO=$(BUILD_DIR)/demo
+ 
+#all: $(FIBERCV_LIB) $(DEMO)
+all: $(FIBERCV_SO) $(DEMO)
+ 
+info:
+	@echo "C_SRCS:" $(C_SRCS)
+	@echo "CXX_SRCS:" $(CXX_SRCS)
+	@echo "C_OBJS:" $(C_OBJS)
+	@echo "CXX_OBJS:" $(CXX_OBJS)
+ 
+#-----------------------
+# fibercv static library
+#-----------------------
+$(FIBERCV_LIB): $(CXX_OBJS) $(C_OBJS)
+	@echo "FIBERCV_LIB"
+	$(AR) $@ $^
+ 
+$(BUILD_DIR)/%.o: %.cpp
+	mkdir -p $(@D)
+	$(CXX) $(CXXFLAGS) -c $^ -o $@
+ 
+$(BUILD_DIR)/%.o: %.c
+	mkdir -p $(@D)
+	$(CC) $(CFLAGS) -c $^ -o $@
+ 
+#-----------------------
+# fibercv shared library
+#-----------------------
+$(FIBERCV_SO): $(CXX_OBJS) $(C_OBJS)
+	$(CXX) $(SHARE) $^ -o $@
+ 
+#-----------------------
+# demo executable
+#-----------------------
+DEMO_SRCS := ./main.cpp
+DEMO_CXXFLAGS := -I./
+DEMO_LDFLAGS := -lfibercv -Lobjs/ -ldl -lasan -lpthread -o objs/demo
+$(DEMO): $(DEMO_SRCS)
+	$(CXX) $(DEMO_CXXFLAGS) $^  -o $@
+ 
+.PHONY:
+clean:
+	rm -f $(C_OBJS)
+	rm -f $(CXX_OBJS)
+	rm -f $(FIBERCV_LIB)
+	rm -f $(FIBERCV_SO)
+	rm -f $(DEMO)

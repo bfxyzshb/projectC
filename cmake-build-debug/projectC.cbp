@@ -122,16 +122,25 @@
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/main.cpp">
 			<Option target="Study_c__"/>
 		</Unit>
+		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/a.c">
+			<Option target="Study_c__"/>
+		</Unit>
+		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/a.h">
+			<Option target="Study_c__"/>
+		</Unit>
+		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/b.c">
+			<Option target="Study_c__"/>
+		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/foo.c">
+			<Option target="Study_c__"/>
+		</Unit>
+		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/foo.h">
 			<Option target="Study_c__"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/main.c">
 			<Option target="Study_c__"/>
 		</Unit>
-		<Unit filename="/Users/hebiao1/CLionProjects/projectC/test.cpp">
-			<Option target="Study_c__"/>
-		</Unit>
-		<Unit filename="/Users/hebiao1/CLionProjects/projectC/test.h">
+		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/test/test.c">
 			<Option target="Study_c__"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/CMakeLists.txt">
