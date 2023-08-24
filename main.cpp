@@ -1,5 +1,6 @@
 #include <iostream>
-#include "test.h"
+#include <stdio.h>
+#include<stdlib.h>
 #include "dev_entern/dev.h"
 extern "C"{
 #include "Cbase/mmsetDev/memsetTest.h"
@@ -71,10 +72,6 @@ int main() {
     std::cout << *(s + 1) << std::endl;
     cout << *(s + 1) << endl;
 
-    int tmp = max(1, 2000);
-    printf("%d\n", tmp);
-    printf("%d\n", a);
-    printf("%d\n", b);
     b = 333;
     dev();
     getDev();

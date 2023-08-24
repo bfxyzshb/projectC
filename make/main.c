@@ -2,10 +2,9 @@
 // Created by hebiao1 on 2023/8/22.
 //
 
-extern void foo();
-
-int main()
+#include "foo.h"
+int main1()
 {
-    foo();
+    foo(1);
     return 0;
 }

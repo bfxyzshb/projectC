@@ -9,6 +9,19 @@ CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o: ../Cbase/mmsetDev/memset
 CMakeFiles/Study_c__.dir/Cbase/test/test.c.o: ../Cbase/test/test.c
 CMakeFiles/Study_c__.dir/Cbase/test/test.c.o: ../Cbase/test/test.h
 
+CMakeFiles/Study_c__.dir/make/a.c.o: ../make/a.c
+CMakeFiles/Study_c__.dir/make/a.c.o: ../make/a.h
+
+CMakeFiles/Study_c__.dir/make/b.c.o: ../make/b.c
+
+CMakeFiles/Study_c__.dir/make/foo.c.o: ../make/foo.c
+CMakeFiles/Study_c__.dir/make/foo.c.o: ../make/foo.h
+
+CMakeFiles/Study_c__.dir/make/main.c.o: ../make/foo.h
+CMakeFiles/Study_c__.dir/make/main.c.o: ../make/main.c
+
+CMakeFiles/Study_c__.dir/make/test/test.c.o: ../make/test/test.c
+
 CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.o: ../defineTest/defineTest.cpp
 
 CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o: ../dev_entern/dev.cpp
@@ -27,8 +40,4 @@ CMakeFiles/Study_c__.dir/main.cpp.o: ../Cbase/mmsetDev/memsetTest.h
 CMakeFiles/Study_c__.dir/main.cpp.o: ../Cbase/test/test.h
 CMakeFiles/Study_c__.dir/main.cpp.o: ../dev_entern/dev.h
 CMakeFiles/Study_c__.dir/main.cpp.o: ../main.cpp
-CMakeFiles/Study_c__.dir/main.cpp.o: ../test.h
-
-CMakeFiles/Study_c__.dir/test.cpp.o: ../test.cpp
-CMakeFiles/Study_c__.dir/test.cpp.o: ../test.h
 

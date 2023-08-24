@@ -70,22 +70,9 @@ CMakeFiles/Study_c__.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Study_c__.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hebiao1/CLionProjects/projectC/main.cpp -o CMakeFiles/Study_c__.dir/main.cpp.s
 
-CMakeFiles/Study_c__.dir/test.cpp.o: CMakeFiles/Study_c__.dir/flags.make
-CMakeFiles/Study_c__.dir/test.cpp.o: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Study_c__.dir/test.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study_c__.dir/test.cpp.o -c /Users/hebiao1/CLionProjects/projectC/test.cpp
-
-CMakeFiles/Study_c__.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Study_c__.dir/test.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hebiao1/CLionProjects/projectC/test.cpp > CMakeFiles/Study_c__.dir/test.cpp.i
-
-CMakeFiles/Study_c__.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Study_c__.dir/test.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hebiao1/CLionProjects/projectC/test.cpp -o CMakeFiles/Study_c__.dir/test.cpp.s
-
 CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o: CMakeFiles/Study_c__.dir/flags.make
 CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o: ../dev_entern/dev.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o -c /Users/hebiao1/CLionProjects/projectC/dev_entern/dev.cpp
 
 CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.i: cmake_force
@@ -98,7 +85,7 @@ CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.s: cmake_force
 
 CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o: CMakeFiles/Study_c__.dir/flags.make
 CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o: ../funcPointer/funcPointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o -c /Users/hebiao1/CLionProjects/projectC/funcPointer/funcPointer.cpp
 
 CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.s: cmake_force
 
 CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o: CMakeFiles/Study_c__.dir/flags.make
 CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o: ../funcPointer/testFuncPointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o -c /Users/hebiao1/CLionProjects/projectC/funcPointer/testFuncPointer.cpp
 
 CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.s: cmake_force
 
 CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.o: CMakeFiles/Study_c__.dir/flags.make
 CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.o: ../defineTest/defineTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.o -c /Users/hebiao1/CLionProjects/projectC/defineTest/defineTest.cpp
 
 CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.s: cmake_force
 
 CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.o: CMakeFiles/Study_c__.dir/flags.make
 CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.o: ../forkTest/forkTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.o -c /Users/hebiao1/CLionProjects/projectC/forkTest/forkTest.cpp
 
 CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.i: cmake_force
@@ -150,7 +137,7 @@ CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.s: cmake_force
 
 CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o: CMakeFiles/Study_c__.dir/flags.make
 CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o: ../Cbase/mmsetDev/memsetTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o   -c /Users/hebiao1/CLionProjects/projectC/Cbase/mmsetDev/memsetTest.c
 
 CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.i: cmake_force
@@ -163,7 +150,7 @@ CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.s: cmake_force
 
 CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o: CMakeFiles/Study_c__.dir/flags.make
 CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o: ../Cbase/funcPointDev/funcPoint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o   -c /Users/hebiao1/CLionProjects/projectC/Cbase/funcPointDev/funcPoint.c
 
 CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.i: cmake_force
@@ -176,7 +163,7 @@ CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.s: cmake_force
 
 CMakeFiles/Study_c__.dir/Cbase/test/test.c.o: CMakeFiles/Study_c__.dir/flags.make
 CMakeFiles/Study_c__.dir/Cbase/test/test.c.o: ../Cbase/test/test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Study_c__.dir/Cbase/test/test.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Study_c__.dir/Cbase/test/test.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Study_c__.dir/Cbase/test/test.c.o   -c /Users/hebiao1/CLionProjects/projectC/Cbase/test/test.c
 
 CMakeFiles/Study_c__.dir/Cbase/test/test.c.i: cmake_force
@@ -189,7 +176,7 @@ CMakeFiles/Study_c__.dir/Cbase/test/test.c.s: cmake_force
 
 CMakeFiles/Study_c__.dir/make/foo.c.o: CMakeFiles/Study_c__.dir/flags.make
 CMakeFiles/Study_c__.dir/make/foo.c.o: ../make/foo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Study_c__.dir/make/foo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Study_c__.dir/make/foo.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Study_c__.dir/make/foo.c.o   -c /Users/hebiao1/CLionProjects/projectC/make/foo.c
 
 CMakeFiles/Study_c__.dir/make/foo.c.i: cmake_force
@@ -202,7 +189,7 @@ CMakeFiles/Study_c__.dir/make/foo.c.s: cmake_force
 
 CMakeFiles/Study_c__.dir/make/main.c.o: CMakeFiles/Study_c__.dir/flags.make
 CMakeFiles/Study_c__.dir/make/main.c.o: ../make/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Study_c__.dir/make/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Study_c__.dir/make/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Study_c__.dir/make/main.c.o   -c /Users/hebiao1/CLionProjects/projectC/make/main.c
 
 CMakeFiles/Study_c__.dir/make/main.c.i: cmake_force
@@ -213,10 +200,48 @@ CMakeFiles/Study_c__.dir/make/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Study_c__.dir/make/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hebiao1/CLionProjects/projectC/make/main.c -o CMakeFiles/Study_c__.dir/make/main.c.s
 
+CMakeFiles/Study_c__.dir/make/a.c.o: CMakeFiles/Study_c__.dir/flags.make
+CMakeFiles/Study_c__.dir/make/a.c.o: ../make/a.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Study_c__.dir/make/a.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Study_c__.dir/make/a.c.o   -c /Users/hebiao1/CLionProjects/projectC/make/a.c
+
+CMakeFiles/Study_c__.dir/make/a.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Study_c__.dir/make/a.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hebiao1/CLionProjects/projectC/make/a.c > CMakeFiles/Study_c__.dir/make/a.c.i
+
+CMakeFiles/Study_c__.dir/make/a.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Study_c__.dir/make/a.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hebiao1/CLionProjects/projectC/make/a.c -o CMakeFiles/Study_c__.dir/make/a.c.s
+
+CMakeFiles/Study_c__.dir/make/b.c.o: CMakeFiles/Study_c__.dir/flags.make
+CMakeFiles/Study_c__.dir/make/b.c.o: ../make/b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Study_c__.dir/make/b.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Study_c__.dir/make/b.c.o   -c /Users/hebiao1/CLionProjects/projectC/make/b.c
+
+CMakeFiles/Study_c__.dir/make/b.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Study_c__.dir/make/b.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hebiao1/CLionProjects/projectC/make/b.c > CMakeFiles/Study_c__.dir/make/b.c.i
+
+CMakeFiles/Study_c__.dir/make/b.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Study_c__.dir/make/b.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hebiao1/CLionProjects/projectC/make/b.c -o CMakeFiles/Study_c__.dir/make/b.c.s
+
+CMakeFiles/Study_c__.dir/make/test/test.c.o: CMakeFiles/Study_c__.dir/flags.make
+CMakeFiles/Study_c__.dir/make/test/test.c.o: ../make/test/test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Study_c__.dir/make/test/test.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Study_c__.dir/make/test/test.c.o   -c /Users/hebiao1/CLionProjects/projectC/make/test/test.c
+
+CMakeFiles/Study_c__.dir/make/test/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Study_c__.dir/make/test/test.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hebiao1/CLionProjects/projectC/make/test/test.c > CMakeFiles/Study_c__.dir/make/test/test.c.i
+
+CMakeFiles/Study_c__.dir/make/test/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Study_c__.dir/make/test/test.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hebiao1/CLionProjects/projectC/make/test/test.c -o CMakeFiles/Study_c__.dir/make/test/test.c.s
+
 # Object files for target Study_c__
 Study_c___OBJECTS = \
 "CMakeFiles/Study_c__.dir/main.cpp.o" \
-"CMakeFiles/Study_c__.dir/test.cpp.o" \
 "CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o" \
 "CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o" \
 "CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o" \
@@ -226,13 +251,15 @@ Study_c___OBJECTS = \
 "CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o" \
 "CMakeFiles/Study_c__.dir/Cbase/test/test.c.o" \
 "CMakeFiles/Study_c__.dir/make/foo.c.o" \
-"CMakeFiles/Study_c__.dir/make/main.c.o"
+"CMakeFiles/Study_c__.dir/make/main.c.o" \
+"CMakeFiles/Study_c__.dir/make/a.c.o" \
+"CMakeFiles/Study_c__.dir/make/b.c.o" \
+"CMakeFiles/Study_c__.dir/make/test/test.c.o"
 
 # External object files for target Study_c__
 Study_c___EXTERNAL_OBJECTS =
 
 Study_c__: CMakeFiles/Study_c__.dir/main.cpp.o
-Study_c__: CMakeFiles/Study_c__.dir/test.cpp.o
 Study_c__: CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o
 Study_c__: CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o
 Study_c__: CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o
@@ -243,9 +270,12 @@ Study_c__: CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o
 Study_c__: CMakeFiles/Study_c__.dir/Cbase/test/test.c.o
 Study_c__: CMakeFiles/Study_c__.dir/make/foo.c.o
 Study_c__: CMakeFiles/Study_c__.dir/make/main.c.o
+Study_c__: CMakeFiles/Study_c__.dir/make/a.c.o
+Study_c__: CMakeFiles/Study_c__.dir/make/b.c.o
+Study_c__: CMakeFiles/Study_c__.dir/make/test/test.c.o
 Study_c__: CMakeFiles/Study_c__.dir/build.make
 Study_c__: CMakeFiles/Study_c__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Study_c__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Study_c__"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Study_c__.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,8 +8,11 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hebiao1/CLionProjects/projectC/Cbase/funcPointDev/funcPoint.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o"
   "/Users/hebiao1/CLionProjects/projectC/Cbase/mmsetDev/memsetTest.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o"
   "/Users/hebiao1/CLionProjects/projectC/Cbase/test/test.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/Cbase/test/test.c.o"
+  "/Users/hebiao1/CLionProjects/projectC/make/a.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/make/a.c.o"
+  "/Users/hebiao1/CLionProjects/projectC/make/b.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/make/b.c.o"
   "/Users/hebiao1/CLionProjects/projectC/make/foo.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/make/foo.c.o"
   "/Users/hebiao1/CLionProjects/projectC/make/main.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/make/main.c.o"
+  "/Users/hebiao1/CLionProjects/projectC/make/test/test.c" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/make/test/test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -23,7 +26,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/hebiao1/CLionProjects/projectC/funcPointer/funcPointer.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o"
   "/Users/hebiao1/CLionProjects/projectC/funcPointer/testFuncPointer.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o"
   "/Users/hebiao1/CLionProjects/projectC/main.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/main.cpp.o"
-  "/Users/hebiao1/CLionProjects/projectC/test.cpp" "/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles/Study_c__.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
