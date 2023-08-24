@@ -1,5 +1,5 @@
 # projectC
-# complie
+## complie
  make
-# run
+## run
 ./objs/demo
