@@ -53,12 +53,12 @@ CMAKE_BINARY_DIR = /Users/hebiao1/CLionProjects/projectC/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Study_c__.dir/all
+all: CMakeFiles/projectC.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Study_c__.dir/clean
+clean: CMakeFiles/projectC.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Study_c__.dir
+# Target rules for target CMakeFiles/projectC.dir
 
 # All Build rule for target.
-CMakeFiles/Study_c__.dir/all:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/depend
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target Study_c__"
-.PHONY : CMakeFiles/Study_c__.dir/all
+CMakeFiles/projectC.dir/all:
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/depend
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target projectC"
+.PHONY : CMakeFiles/projectC.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Study_c__.dir/rule: cmake_check_build_system
+CMakeFiles/projectC.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles 15
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Study_c__.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/projectC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hebiao1/CLionProjects/projectC/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Study_c__.dir/rule
+.PHONY : CMakeFiles/projectC.dir/rule
 
 # Convenience name for target.
-Study_c__: CMakeFiles/Study_c__.dir/rule
+projectC: CMakeFiles/projectC.dir/rule
 
-.PHONY : Study_c__
+.PHONY : projectC
 
 # clean rule for target.
-CMakeFiles/Study_c__.dir/clean:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/clean
-.PHONY : CMakeFiles/Study_c__.dir/clean
+CMakeFiles/projectC.dir/clean:
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/clean
+.PHONY : CMakeFiles/projectC.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

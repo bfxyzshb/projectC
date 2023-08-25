@@ -5,3 +5,5 @@ go
 *.o
 *.xml
 .idea/
+cmake-build-debug/
+*.txt

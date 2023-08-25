@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Study_c__
+# Target rules for targets named projectC
 
 # Build rule for target.
-Study_c__: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Study_c__
-.PHONY : Study_c__
+projectC: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 projectC
+.PHONY : projectC
 
 # fast build rule for target.
-Study_c__/fast:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/build
-.PHONY : Study_c__/fast
+projectC/fast:
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/build
+.PHONY : projectC/fast
 
 Cbase/funcPointDev/funcPoint.o: Cbase/funcPointDev/funcPoint.c.o
 
@@ -129,7 +129,7 @@ Cbase/funcPointDev/funcPoint.o: Cbase/funcPointDev/funcPoint.c.o
 
 # target to build an object file
 Cbase/funcPointDev/funcPoint.c.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/Cbase/funcPointDev/funcPoint.c.o
 .PHONY : Cbase/funcPointDev/funcPoint.c.o
 
 Cbase/funcPointDev/funcPoint.i: Cbase/funcPointDev/funcPoint.c.i
@@ -138,7 +138,7 @@ Cbase/funcPointDev/funcPoint.i: Cbase/funcPointDev/funcPoint.c.i
 
 # target to preprocess a source file
 Cbase/funcPointDev/funcPoint.c.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/Cbase/funcPointDev/funcPoint.c.i
 .PHONY : Cbase/funcPointDev/funcPoint.c.i
 
 Cbase/funcPointDev/funcPoint.s: Cbase/funcPointDev/funcPoint.c.s
@@ -147,7 +147,7 @@ Cbase/funcPointDev/funcPoint.s: Cbase/funcPointDev/funcPoint.c.s
 
 # target to generate assembly for a file
 Cbase/funcPointDev/funcPoint.c.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/funcPointDev/funcPoint.c.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/Cbase/funcPointDev/funcPoint.c.s
 .PHONY : Cbase/funcPointDev/funcPoint.c.s
 
 Cbase/mmsetDev/memsetTest.o: Cbase/mmsetDev/memsetTest.c.o
@@ -156,7 +156,7 @@ Cbase/mmsetDev/memsetTest.o: Cbase/mmsetDev/memsetTest.c.o
 
 # target to build an object file
 Cbase/mmsetDev/memsetTest.c.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/Cbase/mmsetDev/memsetTest.c.o
 .PHONY : Cbase/mmsetDev/memsetTest.c.o
 
 Cbase/mmsetDev/memsetTest.i: Cbase/mmsetDev/memsetTest.c.i
@@ -165,7 +165,7 @@ Cbase/mmsetDev/memsetTest.i: Cbase/mmsetDev/memsetTest.c.i
 
 # target to preprocess a source file
 Cbase/mmsetDev/memsetTest.c.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/Cbase/mmsetDev/memsetTest.c.i
 .PHONY : Cbase/mmsetDev/memsetTest.c.i
 
 Cbase/mmsetDev/memsetTest.s: Cbase/mmsetDev/memsetTest.c.s
@@ -174,7 +174,7 @@ Cbase/mmsetDev/memsetTest.s: Cbase/mmsetDev/memsetTest.c.s
 
 # target to generate assembly for a file
 Cbase/mmsetDev/memsetTest.c.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/mmsetDev/memsetTest.c.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/Cbase/mmsetDev/memsetTest.c.s
 .PHONY : Cbase/mmsetDev/memsetTest.c.s
 
 Cbase/test/test.o: Cbase/test/test.c.o
@@ -183,7 +183,7 @@ Cbase/test/test.o: Cbase/test/test.c.o
 
 # target to build an object file
 Cbase/test/test.c.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/test/test.c.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/Cbase/test/test.c.o
 .PHONY : Cbase/test/test.c.o
 
 Cbase/test/test.i: Cbase/test/test.c.i
@@ -192,7 +192,7 @@ Cbase/test/test.i: Cbase/test/test.c.i
 
 # target to preprocess a source file
 Cbase/test/test.c.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/test/test.c.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/Cbase/test/test.c.i
 .PHONY : Cbase/test/test.c.i
 
 Cbase/test/test.s: Cbase/test/test.c.s
@@ -201,7 +201,7 @@ Cbase/test/test.s: Cbase/test/test.c.s
 
 # target to generate assembly for a file
 Cbase/test/test.c.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/Cbase/test/test.c.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/Cbase/test/test.c.s
 .PHONY : Cbase/test/test.c.s
 
 defineTest/defineTest.o: defineTest/defineTest.cpp.o
@@ -210,7 +210,7 @@ defineTest/defineTest.o: defineTest/defineTest.cpp.o
 
 # target to build an object file
 defineTest/defineTest.cpp.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/defineTest/defineTest.cpp.o
 .PHONY : defineTest/defineTest.cpp.o
 
 defineTest/defineTest.i: defineTest/defineTest.cpp.i
@@ -219,7 +219,7 @@ defineTest/defineTest.i: defineTest/defineTest.cpp.i
 
 # target to preprocess a source file
 defineTest/defineTest.cpp.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/defineTest/defineTest.cpp.i
 .PHONY : defineTest/defineTest.cpp.i
 
 defineTest/defineTest.s: defineTest/defineTest.cpp.s
@@ -228,7 +228,7 @@ defineTest/defineTest.s: defineTest/defineTest.cpp.s
 
 # target to generate assembly for a file
 defineTest/defineTest.cpp.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/defineTest/defineTest.cpp.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/defineTest/defineTest.cpp.s
 .PHONY : defineTest/defineTest.cpp.s
 
 dev_entern/dev.o: dev_entern/dev.cpp.o
@@ -237,7 +237,7 @@ dev_entern/dev.o: dev_entern/dev.cpp.o
 
 # target to build an object file
 dev_entern/dev.cpp.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/dev_entern/dev.cpp.o
 .PHONY : dev_entern/dev.cpp.o
 
 dev_entern/dev.i: dev_entern/dev.cpp.i
@@ -246,7 +246,7 @@ dev_entern/dev.i: dev_entern/dev.cpp.i
 
 # target to preprocess a source file
 dev_entern/dev.cpp.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/dev_entern/dev.cpp.i
 .PHONY : dev_entern/dev.cpp.i
 
 dev_entern/dev.s: dev_entern/dev.cpp.s
@@ -255,7 +255,7 @@ dev_entern/dev.s: dev_entern/dev.cpp.s
 
 # target to generate assembly for a file
 dev_entern/dev.cpp.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/dev_entern/dev.cpp.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/dev_entern/dev.cpp.s
 .PHONY : dev_entern/dev.cpp.s
 
 forkTest/forkTest.o: forkTest/forkTest.cpp.o
@@ -264,7 +264,7 @@ forkTest/forkTest.o: forkTest/forkTest.cpp.o
 
 # target to build an object file
 forkTest/forkTest.cpp.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/forkTest/forkTest.cpp.o
 .PHONY : forkTest/forkTest.cpp.o
 
 forkTest/forkTest.i: forkTest/forkTest.cpp.i
@@ -273,7 +273,7 @@ forkTest/forkTest.i: forkTest/forkTest.cpp.i
 
 # target to preprocess a source file
 forkTest/forkTest.cpp.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/forkTest/forkTest.cpp.i
 .PHONY : forkTest/forkTest.cpp.i
 
 forkTest/forkTest.s: forkTest/forkTest.cpp.s
@@ -282,7 +282,7 @@ forkTest/forkTest.s: forkTest/forkTest.cpp.s
 
 # target to generate assembly for a file
 forkTest/forkTest.cpp.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/forkTest/forkTest.cpp.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/forkTest/forkTest.cpp.s
 .PHONY : forkTest/forkTest.cpp.s
 
 funcPointer/funcPointer.o: funcPointer/funcPointer.cpp.o
@@ -291,7 +291,7 @@ funcPointer/funcPointer.o: funcPointer/funcPointer.cpp.o
 
 # target to build an object file
 funcPointer/funcPointer.cpp.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/funcPointer/funcPointer.cpp.o
 .PHONY : funcPointer/funcPointer.cpp.o
 
 funcPointer/funcPointer.i: funcPointer/funcPointer.cpp.i
@@ -300,7 +300,7 @@ funcPointer/funcPointer.i: funcPointer/funcPointer.cpp.i
 
 # target to preprocess a source file
 funcPointer/funcPointer.cpp.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/funcPointer/funcPointer.cpp.i
 .PHONY : funcPointer/funcPointer.cpp.i
 
 funcPointer/funcPointer.s: funcPointer/funcPointer.cpp.s
@@ -309,7 +309,7 @@ funcPointer/funcPointer.s: funcPointer/funcPointer.cpp.s
 
 # target to generate assembly for a file
 funcPointer/funcPointer.cpp.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/funcPointer/funcPointer.cpp.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/funcPointer/funcPointer.cpp.s
 .PHONY : funcPointer/funcPointer.cpp.s
 
 funcPointer/testFuncPointer.o: funcPointer/testFuncPointer.cpp.o
@@ -318,7 +318,7 @@ funcPointer/testFuncPointer.o: funcPointer/testFuncPointer.cpp.o
 
 # target to build an object file
 funcPointer/testFuncPointer.cpp.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/funcPointer/testFuncPointer.cpp.o
 .PHONY : funcPointer/testFuncPointer.cpp.o
 
 funcPointer/testFuncPointer.i: funcPointer/testFuncPointer.cpp.i
@@ -327,7 +327,7 @@ funcPointer/testFuncPointer.i: funcPointer/testFuncPointer.cpp.i
 
 # target to preprocess a source file
 funcPointer/testFuncPointer.cpp.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/funcPointer/testFuncPointer.cpp.i
 .PHONY : funcPointer/testFuncPointer.cpp.i
 
 funcPointer/testFuncPointer.s: funcPointer/testFuncPointer.cpp.s
@@ -336,7 +336,7 @@ funcPointer/testFuncPointer.s: funcPointer/testFuncPointer.cpp.s
 
 # target to generate assembly for a file
 funcPointer/testFuncPointer.cpp.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/funcPointer/testFuncPointer.cpp.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/funcPointer/testFuncPointer.cpp.s
 .PHONY : funcPointer/testFuncPointer.cpp.s
 
 main.o: main.cpp.o
@@ -345,7 +345,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -354,7 +354,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -363,7 +363,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 make/a.o: make/a.c.o
@@ -372,7 +372,7 @@ make/a.o: make/a.c.o
 
 # target to build an object file
 make/a.c.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/a.c.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/a.c.o
 .PHONY : make/a.c.o
 
 make/a.i: make/a.c.i
@@ -381,7 +381,7 @@ make/a.i: make/a.c.i
 
 # target to preprocess a source file
 make/a.c.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/a.c.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/a.c.i
 .PHONY : make/a.c.i
 
 make/a.s: make/a.c.s
@@ -390,7 +390,7 @@ make/a.s: make/a.c.s
 
 # target to generate assembly for a file
 make/a.c.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/a.c.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/a.c.s
 .PHONY : make/a.c.s
 
 make/b.o: make/b.c.o
@@ -399,7 +399,7 @@ make/b.o: make/b.c.o
 
 # target to build an object file
 make/b.c.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/b.c.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/b.c.o
 .PHONY : make/b.c.o
 
 make/b.i: make/b.c.i
@@ -408,7 +408,7 @@ make/b.i: make/b.c.i
 
 # target to preprocess a source file
 make/b.c.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/b.c.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/b.c.i
 .PHONY : make/b.c.i
 
 make/b.s: make/b.c.s
@@ -417,7 +417,7 @@ make/b.s: make/b.c.s
 
 # target to generate assembly for a file
 make/b.c.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/b.c.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/b.c.s
 .PHONY : make/b.c.s
 
 make/foo.o: make/foo.c.o
@@ -426,7 +426,7 @@ make/foo.o: make/foo.c.o
 
 # target to build an object file
 make/foo.c.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/foo.c.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/foo.c.o
 .PHONY : make/foo.c.o
 
 make/foo.i: make/foo.c.i
@@ -435,7 +435,7 @@ make/foo.i: make/foo.c.i
 
 # target to preprocess a source file
 make/foo.c.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/foo.c.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/foo.c.i
 .PHONY : make/foo.c.i
 
 make/foo.s: make/foo.c.s
@@ -444,7 +444,7 @@ make/foo.s: make/foo.c.s
 
 # target to generate assembly for a file
 make/foo.c.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/foo.c.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/foo.c.s
 .PHONY : make/foo.c.s
 
 make/main.o: make/main.c.o
@@ -453,7 +453,7 @@ make/main.o: make/main.c.o
 
 # target to build an object file
 make/main.c.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/main.c.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/main.c.o
 .PHONY : make/main.c.o
 
 make/main.i: make/main.c.i
@@ -462,7 +462,7 @@ make/main.i: make/main.c.i
 
 # target to preprocess a source file
 make/main.c.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/main.c.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/main.c.i
 .PHONY : make/main.c.i
 
 make/main.s: make/main.c.s
@@ -471,7 +471,7 @@ make/main.s: make/main.c.s
 
 # target to generate assembly for a file
 make/main.c.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/main.c.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/main.c.s
 .PHONY : make/main.c.s
 
 make/test/test.o: make/test/test.c.o
@@ -480,7 +480,7 @@ make/test/test.o: make/test/test.c.o
 
 # target to build an object file
 make/test/test.c.o:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/test/test.c.o
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/test/test.c.o
 .PHONY : make/test/test.c.o
 
 make/test/test.i: make/test/test.c.i
@@ -489,7 +489,7 @@ make/test/test.i: make/test/test.c.i
 
 # target to preprocess a source file
 make/test/test.c.i:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/test/test.c.i
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/test/test.c.i
 .PHONY : make/test/test.c.i
 
 make/test/test.s: make/test/test.c.s
@@ -498,7 +498,7 @@ make/test/test.s: make/test/test.c.s
 
 # target to generate assembly for a file
 make/test/test.c.s:
-	$(MAKE) -f CMakeFiles/Study_c__.dir/build.make CMakeFiles/Study_c__.dir/make/test/test.c.s
+	$(MAKE) -f CMakeFiles/projectC.dir/build.make CMakeFiles/projectC.dir/make/test/test.c.s
 .PHONY : make/test/test.c.s
 
 # Help Target
@@ -509,7 +509,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Study_c__"
+	@echo "... projectC"
 	@echo "... Cbase/funcPointDev/funcPoint.o"
 	@echo "... Cbase/funcPointDev/funcPoint.i"
 	@echo "... Cbase/funcPointDev/funcPoint.s"

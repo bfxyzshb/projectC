@@ -37,43 +37,55 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Study_c__">
-				<Option output="/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Study_c__" prefix_auto="0" extension_auto="0"/>
+			<Target title="projectC">
+				<Option output="/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/projectC" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hebiao1/CLionProjects/projectC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/Cbase/funcPointDev"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/Cbase/mmsetDev"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/Cbase/test"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/dev_entern"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/funcPointer"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/make"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 Study_c__"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectC"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Study_c__/fast">
-				<Option output="/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Study_c__" prefix_auto="0" extension_auto="0"/>
+			<Target title="projectC/fast">
+				<Option output="/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/projectC" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/hebiao1/CLionProjects/projectC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/Cbase/funcPointDev"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/Cbase/mmsetDev"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/Cbase/test"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/dev_entern"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/funcPointer"/>
+					<Add directory="/Users/hebiao1/CLionProjects/projectC/make"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 Study_c__/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectC/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hebiao1/CLionProjects/projectC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,67 +93,67 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/Cbase/funcPointDev/funcPoint.c">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/Cbase/funcPointDev/funcPoint.h">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/Cbase/mmsetDev/memsetTest.c">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/Cbase/mmsetDev/memsetTest.h">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/Cbase/test/test.c">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/Cbase/test/test.h">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/defineTest/defineTest.cpp">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/dev_entern/dev.cpp">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/dev_entern/dev.h">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/forkTest/forkTest.cpp">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/funcPointer/funcPointer.cpp">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/funcPointer/funcPointer.h">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/funcPointer/testFuncPointer.cpp">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/main.cpp">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/a.c">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/a.h">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/b.c">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/foo.c">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/foo.h">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/main.c">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/make/test/test.c">
-			<Option target="Study_c__"/>
+			<Option target="projectC"/>
 		</Unit>
 		<Unit filename="/Users/hebiao1/CLionProjects/projectC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
